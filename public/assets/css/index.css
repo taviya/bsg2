@@ -1,0 +1,232 @@
+body{
+    background-color: #fff  !important;
+}
+
+.landing{
+    background: linear-gradient(296.33deg, #2A3EE1 0%, #6096F1 100%);
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    align-items: center;
+}
+.landing img{
+    height: auto;
+    width: 100%;
+}
+.landing-text{
+    position: absolute;
+    margin-top: 5em;
+    font-family: 'Inter-Bold';
+    text-align: center;
+    
+}
+.landing-text h1{
+    font-size: 56px;
+}
+
+
+.landing a{
+    background: linear-gradient(293.69deg, #EF165F -2.22%, #FF6D9E 100%) !important;
+    margin-top: 20px;
+    padding: 10px 25px;
+    border-radius: 50px;
+    color: #fff;
+    font-family: 'Inter-Light';
+}
+
+.landing a:hover{
+    background: linear-gradient(294.45deg, #018D98 -0.1%, #01C2CF 99.88%) !important;
+}
+
+.landing p{
+    font-size: 20px;
+    color: #FFFFFF;
+    font-family: 'Inter';
+    margin-bottom: 20px;
+}
+
+.audit{
+    text-align: center;
+    padding-top:5em;
+    padding-bottom:5em;
+}
+
+.audit img{
+    width: 180px;
+    margin: 15px;
+}
+
+.reward{
+    text-align: center;
+    padding: 40px 30px;
+    margin-bottom: 30px;
+    margin-top: 30px
+}
+
+.reward h1{
+    font-family: 'Inter-Bold';
+    font-size: 48px;
+    color: #0F3F62;
+}
+
+.reward p{
+    font-family: 'Inter';
+    font-size: 16px;
+    color: #626262;
+}
+
+.br{
+    /*border-right: 1px solid #CACACA;*/
+    border-left: 1px solid #CACACA;
+}
+
+.mb-20{
+    margin-bottom: 20px;
+}
+
+.platform-detail{
+    padding: 5% 8%;
+}
+
+.platform-detail h1{
+    font-family: 'Inter-Bold';
+    font-size: 48px;
+    color: #f8f9fa;
+}
+
+.platform-detail h3{
+    color: #FFF;
+    font-size: 24px;
+    font-family: 'Inter-Bold';
+}
+
+.platform-detail h4{
+    color: #FFF;
+    font-size: 24px;
+    font-family: 'Inter-Bold';
+}
+
+.platform-detail p {
+    color: #FFF;
+    font-size: 16px;
+    font-family: 'Inter';
+}
+
+.platform-detail img{
+    width: 100%;
+    height: auto;
+}
+
+.start{
+    padding: 4em 7em;
+    text-align: center;
+    background: linear-gradient(107.8deg, #FE6095 0%, #F32369 100%);
+}
+
+.start h1{
+    font-size: 48px;
+    color: #FFF;
+    font-family: 'Inter-Bold';
+}
+
+.start p{
+    font-size: 18px;
+    color: #FFF;
+    font-family: 'Inter-Bold';;
+    padding-bottom: 20px;
+}
+
+.ccc{
+    background: rgba(255, 255, 255, 0.3);
+    border: 1px solid #E3E3E3;
+    border-radius: 20px;
+    margin-top: 5em;
+    padding: 4em 3em;
+    min-height: 447px;
+}
+
+.ccc h2{
+    font-family: 'Inter-Bold';;
+    font-size: 24px;
+    color: #FFF;
+}
+.ccc p{
+    font-family: 'Inter';;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFF;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.monthly{
+    text-align: center;
+    padding: 4em 7em;
+    display: flex;
+    align-content: space-between;
+    align-items: center;
+    background-color: #0F3F62;
+}
+.monthly-text{
+    position: absolute;
+    padding: 10%;
+}
+
+.monthly img{
+    width: 100%;
+    height: auto;
+}
+
+.monthly-text h2 {
+    margin-bottom: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 120%;
+    color: #FFFFFF;
+}
+
+.monthly-text a{
+    padding: 15px 30px;
+    border-radius: 7px;
+    border: none;
+    font-size: 16px;
+    color: #000;
+    font-family: 'Inter-Bold';
+    background: #FFF !important
+}
+/* .platform h3{
+    display: flex;
+    justify-content: flex-end;
+} */
+
+.audit h1{
+    color: #0F3F62;
+    font-size: 40px;
+    font-family: 'Inter-Bold';
+    margin-bottom: 20px;
+}
+
+.audit p {
+    font-family: 'Inter';
+    font-size: 20px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    
+    
+    .landing-text{
+        position: relative;
+    }
+
+    .audit img {
+        width: 130px;
+    }  
+}

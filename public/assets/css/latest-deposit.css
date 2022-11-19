@@ -1,0 +1,142 @@
+body{
+    background-color: #EFF4FD;
+
+}
+.main-team {
+    padding: 0 !important;
+    background-color: #EFF4FD;
+    font-family: 'Inter';
+    animation: fadein .5s;
+}
+
+.background{
+    background:  radial-gradient(36.28% 150.93% at 50% 50%, #814EF5 0%, #450BC9 100%);
+    position: absolute;
+    width: 100%;
+    top: 67px;
+    z-index: 1;
+    left: 0px;
+    height: 215px;
+}
+
+.welcome-team {
+    position: relative;
+    height: 174px;
+    padding: 30px;
+    z-index: 1;
+    animation: fadein 4s;
+    -moz-animation: fadein 4s;
+    -webkit-animation: fadein 4s;
+    -o-animation: fadein 4s;
+    color: #FFFFFF;
+}
+
+.welcome-team h3{
+    font-family: 'Inter-Bold';
+    font-weight: 1000;
+}
+.welcome-team p{
+    font-size: 16px;
+}
+.welcome-team img{
+    visibility: hidden;
+}
+
+.team-detail{
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.body{
+    height: 100%;
+}
+
+.main-detail{
+    z-index: 1;
+    position: relative;
+}
+
+.main-team-detail{
+    margin: 20px 30px;
+    font-family: 'Inter';
+    animation: bounce-in-right 1s ease-in;
+}
+
+.main-team-detail p{
+    color: #8A92A6;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.main-team-detail h3{
+    color: #000000;
+    font-size: 26px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.team-percent{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0;
+}
+
+.main-team-detail span{
+    color: #000;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+.footer{
+    /* position: absolute ; */
+    bottom: 0;
+}
+
+.main-latest-despositor{
+    display: block !important;
+}
+.main-latest-despositor-data tr{
+    border-bottom: 1px solid #edecec !important;
+}
+.main-latest-despositor{
+    margin-bottom: 20px;
+}
+
+.status-completed h2{
+    background: #DEF7EC;
+    color: #03543F;
+    padding: 5px 5px;
+    font-size: 14px;
+    border-radius: 10px;
+    font-weight: 100;
+    font-family: 'Inter';
+    font-weight: bold;
+}
+
+.status-failed h2{
+    background: #FBD5D5;
+    color: #9B1C1C;
+    padding: 5px 5px;
+    font-size: 14px;
+    border-radius: 10px;
+    font-weight: 100;
+    font-family: 'Inter';
+    font-weight: bold;
+}
+
+.status-progress h2{
+    background: #E1EFFE;
+    color: #1E429F;
+    padding: 5px 5px;
+    font-size: 14px;
+    border-radius: 10px;
+    font-weight: 100;
+    font-family: 'Inter';
+    font-weight: bold;
+}
+
+
+
+
